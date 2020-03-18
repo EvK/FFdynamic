@@ -77,7 +77,7 @@ const map<int, EDavVideoMixLayout> CellLayout::s_cellNumToLayoutMap = {
 const map<EDavVideoMixLayout, vector<vector<int>>> CellLayout::s_layoutCoordinates = {
     // {0, {}},
     {eSingle_1,              {{0},{0},{120},{120}}},
-    {eHorizonal_2,           {{0,60},{30,30},{60,60},{60,60}}},
+    {eHorizonal_2,           {{0,60},{0,0},{60,60},{60,60}}},
     {eLeft1SmallRight1Big_2, {{0,24},{0,0},{24,96},{24,120}}},
     {eLeft2SmallRight1Big_3, {{0,40,0},{20,20,60},{40,80,40},{40,80,40}}},
     {eEqual_4,               {{0,60,0,60},{0,0,60,60},{60,60,60,60},{60,60,60,60}}},

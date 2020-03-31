@@ -33,7 +33,8 @@ enum class EDavVideoMixLayout {
     eLayoutUnknown = -1,    eLayoutAuto = 0,        eSingle_1 = 1, eHorizonal_2 = 2,
     eLeft1SmallRight1Big_2, eLeft2SmallRight1Big_3, eEqual_4,      eLeft1BigRight3Small_4,
     eRow2Col3_6,            eEqual_9,               eRow3Col4_12,  eEqual_16,
-    eEqual_25,              eEqual_36,              eLayoutSpecific
+    eEqual_25,              eEqual_36,              eLayoutSpecific,
+    eFirstOut_2, eSecondOut_2
 };
 
 struct DavVideoCellCoordinate {

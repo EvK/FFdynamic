@@ -17,6 +17,8 @@ static constexpr auto eEqual_16 = EDavVideoMixLayout::eEqual_16;
 static constexpr auto eEqual_25 = EDavVideoMixLayout::eEqual_25;
 static constexpr auto eEqual_36 = EDavVideoMixLayout::eEqual_36;
 static constexpr auto eLayoutSpecific = EDavVideoMixLayout::eLayoutSpecific;
+static constexpr auto eFirstOut_2 = EDavVideoMixLayout::eFirstOut_2;
+static constexpr auto eSecondOut_2 = EDavVideoMixLayout::eSecondOut_2;
 
 template <> const map<EDavVideoMixLayout, string> EnumString<EDavVideoMixLayout>::s_enumStringMap = {
     {eLayoutAuto,            "autoLayout"},
@@ -33,7 +35,9 @@ template <> const map<EDavVideoMixLayout, string> EnumString<EDavVideoMixLayout>
     {eEqual_16,              "equal_16"},
     {eEqual_25,              "eEqual_25"},
     {eEqual_36,              "eEqual_36"},
-    {eLayoutSpecific,        "eLayoutSpecific"}
+    {eLayoutSpecific,        "eLayoutSpecific"}.
+    {eFirstOut_2,            "eFirstOut_2"},
+    {eSecondOut_2,           "eSecondOut_2"}
 };
 
 const map<EDavVideoMixLayout, int> CellLayout::s_layoutToCellNumMap = {
@@ -49,7 +53,9 @@ const map<EDavVideoMixLayout, int> CellLayout::s_layoutToCellNumMap = {
     {eRow3Col4_12, 12},
     {eEqual_16, 16},
     {eEqual_25, 25},
-    {eEqual_36, 36}
+    {eEqual_36, 36},
+    {eFirstOut_2, 2},
+    {eSecondOut_2, 2}
 };
 
 const map<int, EDavVideoMixLayout> CellLayout::s_cellNumToLayoutMap = {
@@ -77,7 +83,7 @@ const map<int, EDavVideoMixLayout> CellLayout::s_cellNumToLayoutMap = {
 const map<EDavVideoMixLayout, vector<vector<int>>> CellLayout::s_layoutCoordinates = {
     // {0, {}},
     {eSingle_1,              {{0},{0},{120},{120}}},
-    {eHorizonal_2,           {{0,60},{0,0},{60,60},{60,60}}},
+    {eHorizonal_2,           {{0,60},{0,0},{60,60},{120,120}}},
     {eLeft1SmallRight1Big_2, {{0,24},{0,0},{24,96},{24,120}}},
     {eLeft2SmallRight1Big_3, {{0,40,0},{20,20,60},{40,80,40},{40,80,40}}},
     {eEqual_4,               {{0,60,0,60},{0,0,60,60},{60,60,60,60},{60,60,60,60}}},
@@ -106,7 +112,9 @@ const map<EDavVideoMixLayout, vector<vector<int>>> CellLayout::s_layoutCoordinat
                  {20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,
                   20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20},
                  {20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,
-                  20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20}}}
+                  20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20}}},
+    {eFirstOut_2,   {{0,60},{0,0},{0,60},{0,120}}},
+    {eSecondOut_2,  {{0,60},{0,0},{60,0},{120,0}}},
 };
 
 } // namespace ff_dynamic

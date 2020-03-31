@@ -107,4 +107,5 @@ enum EVideoMixLayout {
     eRow2Col3_6 = 7;            eEqual_9 = 8;
     eRow3Col4_12 = 9;           eEqual_16 = 10;
     eEqual_25 = 11; eEqual_36 = 12; eLayoutSpecific = 13;
+	eFirstOut_2 = 14;eSecondOut_2 = 15;
 }

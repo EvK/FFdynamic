@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\cmake",
+    "\\davBasis",
+    "\\davEvent",
+    "\\davImpl",
+    "\\davImpl\\mux",
+    "\\davImpl\\videoMix",
+    "\\davTools",
+    "\\davTools\\globalSignalHandle"
+  ],
+  "SelectedNode": "\\davBasis\\davWave.h",
+  "PreviewInSolutionExplorer": false
+}

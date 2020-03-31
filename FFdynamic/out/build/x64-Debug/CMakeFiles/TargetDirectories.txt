@@ -1,0 +1,15 @@
+C:/dev/FFdynamic/FFdynamic/out/build/x64-Debug/CMakeFiles/list_install_components.dir
+C:/dev/FFdynamic/FFdynamic/out/build/x64-Debug/CMakeFiles/ffdynamic.dir
+C:/dev/FFdynamic/FFdynamic/out/build/x64-Debug/CMakeFiles/install/local.dir
+C:/dev/FFdynamic/FFdynamic/out/build/x64-Debug/CMakeFiles/install.dir
+C:/dev/FFdynamic/FFdynamic/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/dev/FFdynamic/FFdynamic/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/dev/FFdynamic/FFdynamic/out/build/x64-Debug/davTests/CMakeFiles/avMixerTest.dir
+C:/dev/FFdynamic/FFdynamic/out/build/x64-Debug/davTests/CMakeFiles/filterTest.dir
+C:/dev/FFdynamic/FFdynamic/out/build/x64-Debug/davTests/CMakeFiles/streamletMixerTest.dir
+C:/dev/FFdynamic/FFdynamic/out/build/x64-Debug/davTests/CMakeFiles/simpleTranscode.dir
+C:/dev/FFdynamic/FFdynamic/out/build/x64-Debug/davTests/CMakeFiles/install/local.dir
+C:/dev/FFdynamic/FFdynamic/out/build/x64-Debug/davTests/CMakeFiles/install.dir
+C:/dev/FFdynamic/FFdynamic/out/build/x64-Debug/davTests/CMakeFiles/edit_cache.dir
+C:/dev/FFdynamic/FFdynamic/out/build/x64-Debug/davTests/CMakeFiles/rebuild_cache.dir
+C:/dev/FFdynamic/FFdynamic/out/build/x64-Debug/davTests/CMakeFiles/list_install_components.dir

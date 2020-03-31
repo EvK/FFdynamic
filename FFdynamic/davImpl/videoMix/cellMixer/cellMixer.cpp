@@ -14,6 +14,8 @@ int CellMixer::updateOneMixCellSettings(unique_ptr<OneMixCell> & oneMixCell, con
     vector<int> coors = CellLayout::getCoordinateOfLayoutAtPos(m_layout, pos);
     if (coors.size() == 0) /* this cell won't be shown on screen */
         return 0;
+    if (coors[2] == 0 || coors[3] == 0)
+        return 0;
 
     oneMixCell->m_archor.init(out->m_width, out->m_height, coors, pos);
     LOG(INFO) << m_logtag << "update one cell settings: pos " << pos << ", coors "

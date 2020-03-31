@@ -1,0 +1,11 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/dev/FFdynamic/apps/interactiveLive/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_23f71 && [1/2] Building CXX object CMakeFiles\cmTC_23f71.dir\CheckIncludeFile.cxx.obj
+FAILED: CMakeFiles/cmTC_23f71.dir/CheckIncludeFile.cxx.obj 
+C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\HostX64\x64\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_23f71.dir\CheckIncludeFile.cxx.obj /FdCMakeFiles\cmTC_23f71.dir\ /FS -c CheckIncludeFile.cxx
+CheckIncludeFile.cxx(1): fatal error C1083: Не удается открыть файл включение: pthread.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+
